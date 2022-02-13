@@ -1,6 +1,6 @@
 import react , {useState} from 'react';
 import './App.css';
-import Bulb from './componenets/Bulb';
+import Bulb from './components/Bulb';
 
 function App() {
   const [isBright, setIsDark] = useState(true);
